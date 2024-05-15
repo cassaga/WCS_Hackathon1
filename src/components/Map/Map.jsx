@@ -55,7 +55,7 @@ const Map = ({ departureResult, destinationResult }) => {
           <LayersControl.BaseLayer checked name="Map">
             <TileLayer
               attribution="Touriosity"
-              url="https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png"
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
           </LayersControl.BaseLayer>
         </LayersControl>
